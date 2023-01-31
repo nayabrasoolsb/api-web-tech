@@ -14,7 +14,7 @@ router.post("/createInventory", async(req, res) => {
   } catch (e) {
     res.status(403).json({
       status: "failed",
-      messege: e.messege
+      messege: e
     })
   }
 })
