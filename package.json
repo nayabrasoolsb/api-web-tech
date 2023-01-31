@@ -1,0 +1,26 @@
+{
+  "name": "api-web-tech",
+  "version": "1.0.0",
+  "description": "api web tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayabrasoolsb/api-web-tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nayabrasoolsb/api-web-tech/issues"
+  },
+  "homepage": "https://github.com/nayabrasoolsb/api-web-tech#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
