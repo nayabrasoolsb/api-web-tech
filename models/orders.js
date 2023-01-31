@@ -1,10 +1,10 @@
 const { Schema, model } = require("mongoose");
 const orderShema = new Schema(
   {
-    customer_id: { type:String, required: true },
-    inventory_id: { type:String, required: true },
-    item_name: { type:String, required: true },
-    quantity: { type:Number, required: true },
+    customer_id: { type: String, required: true },
+    inventory_id: { type: String, required: true },
+    item_name: { type: String, required: true },
+    quantity: { type: Number, required: true },
   },
   { timestamps: true },
 );
