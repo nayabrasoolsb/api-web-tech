@@ -3,7 +3,7 @@ const router = express.Router();
 const bodyParser = require("body-parser");
 router.use(bodyParser.json());
 const Orders = require("../models/orders.js");
-const Inventory = rquire("../models/inventory.js");
+const Inventory = require("../models/inventory.js");
 
 router.post("/createOrder", async (req, res) => {
   try {
